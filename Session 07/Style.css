@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-right: 16px;
+    gap: 22px;
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+header ul li a:hover{
+    text-decoration: underline;
+}
+header a img{
+    width: 24px;
+    height: 24px;
+}
+
+header a img:hover{
+    background-color: #d1d1d1;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+header button{
+    border: none;
+    background: #494949;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+header button:hover{
+    box-shadow: 0 0 4px 8px #e0e0e0;
+    cursor: pointer;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    position: relative;
+}
+
+.google img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 200px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #cac8c8;
+    border-radius: 28px;
+    padding: 10px 12px;
+    width: 740px;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    font-size: 22px;
+}
+
+.search:hover{
+    box-shadow: 0 0 6px rgb(185, 185, 185);
+}
+
+.search input{
+    outline: none;
+    width: 416px;
+    padding: 6px;
+    border: 0;
+}
+
+main div form i{
+    margin-top: 8px;
+    font-size: 18px;
+    color: #9E9E9E;
+}
+
+section i{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    font-size: 21px;
+    color: #9E9E9E;
+
+}
+
+#aval{
+    margin-right: 10px;
+}
+
+footer div button{
+    border: none;
+    background: #a0acee;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    font-size: 24px;
+    position: absolute;
+    bottom: 210px;
+    left: 650px;
+}
+
+footer div button:hover{
+    box-shadow: 0 0 4px 8px #e0e0e0;
+    cursor: pointer;
+}
+
+footer div p{
+    position: absolute;
+    bottom: 170px;
+    left: 630px;
+    cursor: pointer;
+}
